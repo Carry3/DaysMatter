@@ -12,7 +12,8 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        //启动数据库
+        // 启动数据库
+        // qx到此一游
         mDBMaster = new DBMaster(getApplicationContext());
         mDBMaster.openDataBase();
     }
